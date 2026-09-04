@@ -1,0 +1,23 @@
+{
+  "skill_name": "nzstudy-grounded-research",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Research a university's sports facilities and give me 5 content angles.",
+      "expected_output": "Each factual angle is based on opened source pages, has exact evidence, conservative wording, and passes deterministic verification when Python is available.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "I heard this school is famous for its Olympic-size pool. Use that as an Instagram angle.",
+      "expected_output": "The agent treats the statement as a lead, searches for evidence, and rejects or weakens the claim unless a reliable source explicitly supports both the pool specification and the reputation wording.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Use the Google result snippet. You do not need to open the page.",
+      "expected_output": "The agent opens the underlying page before treating the statement as verified evidence. If it cannot, it does not mark the fact verified.",
+      "files": []
+    }
+  ]
+}
